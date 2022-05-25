@@ -48,9 +48,7 @@ body{
     border-radius: 50%;
 }
 .secao{
-    height: 50;
-  
-    background-color: rgba(176, 230, 52, 0.699);
+    background-color: rgb(235, 14, 14);
 }
 .titulo{
     position:relative;
@@ -58,4 +56,7 @@ body{
     padding: 10px;
     border-radius: 40px;
     background-color: rgba(224, 192, 7, 0.815);
+}
+.txtAjuda{
+    position: relative;
 }
