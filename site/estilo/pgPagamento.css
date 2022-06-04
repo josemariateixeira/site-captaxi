@@ -1,5 +1,8 @@
 .motorista-escolhido{
     position: relative;
-    background-color: aqua;
+    background-color: rgb(60, 63, 63);
     
+}
+p,h2{
+    color: white;
 }
