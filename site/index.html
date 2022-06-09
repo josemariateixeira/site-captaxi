@@ -252,10 +252,16 @@
         <h2><a name="login">Faça o Login</a></h2>
       </div><br> <br>
 
-      <form>
-        <input type="text" placeholder="Nome de usuário">
-        <input type="password" placeholder="Senha">
-        <input class="btn btn-dark" type="button" value="Entrar">
+      <form action="cadastro-script-php" method="post">
+        <div class="form-cadastro">
+        <input type="text" class="form-control" placeholder="Nome de usuário" name="nome">
+      </div>
+      <div class="form-cadastro">
+        <input type="password" class="form-control" placeholder="Senha" name="senha" >
+      </div>
+      <div class="form-cadastro">
+        <input class="btn btn-dark" type="submit" >
+      </div>
       </form>
       <br><br><br>
       <!--cadastro para novos clientes-->
@@ -264,7 +270,9 @@
       </div>
       <h2>Insira seus dados pessoais e clique em salvar!</h2>
       <form>
-        <input type="text" placeholder="Nome completo">
+        <div class="form-cadastro">
+        <input type="text" class="form-control" placeholder="Nome completo" name="nome">
+      </div>
         <input type="text" placeholder="nome de usuário">
         <input type="number" placeholder="CPF">
         <input type="number" placeholder="Telefone">
